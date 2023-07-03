@@ -31,6 +31,12 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
+-- keys in insert mode
+keymap.set("i", "<C-j>", "<kDown>")
+keymap.set("i", "<C-k>", "<kUp>")
+keymap.set("i", "<C-h>", "<kLeft>")
+keymap.set("i", "<C-l>", "<kRight>")
+
 ----------------------
 -- Plugin Keybinds
 ----------------------
